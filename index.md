@@ -32,3 +32,13 @@ names(CPI_PCT_A)[3] <- "VALUE"
 names(CPI_PCT_A)[4] <- "YEAR"
 write.csv(CPI_PCT_A,file="CPI_PCT_A.csv")
 ```
+
+*In order to have a time series for one country only, the following R code allows you to select a sub-section of the main table*
+
+- *zzz* represents the ISO code of the country for which you want to have a unique table
+
+```{r}
+country_dataset <- CPI_PCT_A[ which(CPI_PCT_A$ISO=='zzz'),]
+```
+
+
