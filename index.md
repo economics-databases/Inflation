@@ -6,4 +6,4 @@
 
 * Source: [World Bank](https://data.worldbank.org)
 
-       [CSV]()
+     [CSV](https://github.com/economics-databases/Inflation/blob/gh-pages/CPI_PCT_A.csv)
